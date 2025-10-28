@@ -73,7 +73,7 @@ body{
     background-color: var(--purple);
 }
 h1{
-    font: Kavoon;
+    font-family: Kavoon;
     font-size: 3em;
     display: flex;
     justify-content: center;
@@ -90,13 +90,13 @@ header p{
 }
 
 h2{
-    font: Kavoon;
+    font-family: Kavoon;
     font-size: 2em;
     color: var(--white);
     
 }
 h3{
-    font-size: 1.5 em;
+    font-size: 1.5em;
     font-family:Inter;
     color: var(--yellow);
     font-weight: bold;
@@ -108,7 +108,8 @@ h4{
     color:var(--purple);
     font-weight: bold;
     padding: .5rem;
-    text-align: left;
+    display: flex;
+    justify-content: left;
 }
 .menu{
     background-color: var(--yellow);
@@ -118,22 +119,26 @@ h4{
    font-family: Inter;
    font-weight: bold;
    font-style: italic;
+   padding: 1rem;
 }
 .menu h2{
     color:var(--dk-gray);
+    font-family: Inter;
 }
 .menu nav a{
     display: flex;
     justify-content: space-around;
     background-color: var(--white);
-    padding: 5px;
     font-size: 1.5em;
     font-weight: bold;
-    padding: 2 rem;
+    padding: 1rem;
     margin:10px;
     color: var(--purple);
 }
 
+.services h2{
+    padding: 1rem;
+}
 .personal_development{
     background-color: var(--white);
     border-radius: 10%;
@@ -143,7 +148,9 @@ h4{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
+    line-height: 1.4;
 }
+
 .career_coaching{
     background-color: var(--white);
     border-radius: 10%;
@@ -204,13 +211,44 @@ h4{
     padding-right: 2rem;
     padding-top: 1rem;
 }
-.personal_development{
-    background-color: var(--white);
-    border-radius: 10%;
-    font-family: Inter;
-    margin: 20px;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
+
+.why_choose_us{
+    background-color: var(--pink);
+    padding: 1rem;
 }
+#choose_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1px 1px;
+   
+}
+
+#choose_grid > div{
+    text-align: center;
+    font-family: Inter;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 30px;
+    margin: 10px;
+    
+}
+.PA{
+    background-color: var(--teal);
+} 
+.PR{
+    background-color: var(--lavender);
+}  
+.SE{
+    background-color: var(--yellow);
+}  
+.FO{
+    background-color: var(--white);
+}  
+
+.pricing {
+   display: inline-block;
+   text-align: center;
+   border: 1px solid var(--yellow);
+   
+}
+
