@@ -65,6 +65,9 @@ body{
     background-color:var(--lavender);
     max-width: 450px;
     font-family: "Kavoon", "Inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     background-color: var(--purple);
@@ -89,7 +92,23 @@ header p{
 h2{
     font: Kavoon;
     font-size: 2em;
+    color: var(--white);
     
+}
+h3{
+    font-size: 1.5 em;
+    font-family:Inter;
+    color: var(--yellow);
+    font-weight: bold;
+    
+
+}
+h4{
+    font-size: 1.15em;
+    color:var(--purple);
+    font-weight: bold;
+    padding: .5rem;
+    text-align: left;
 }
 .menu{
     background-color: var(--yellow);
@@ -100,17 +119,98 @@ h2{
    font-weight: bold;
    font-style: italic;
 }
+.menu h2{
+    color:var(--dk-gray);
+}
 .menu nav a{
     display: flex;
     justify-content: space-around;
     background-color: var(--white);
-    padding: 10px;
+    padding: 5px;
     font-size: 1.5em;
     font-weight: bold;
     padding: 2 rem;
-    font-style: none;
+    margin:10px;
+    color: var(--purple);
 }
 
-.services{
-    
+.personal_development{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.career_coaching{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.relationship_coaching{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.supportive_community{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.focused_sessions{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.interactive_learning{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.flexible_learning{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.personal_development{
+    background-color: var(--white);
+    border-radius: 10%;
+    font-family: Inter;
+    margin: 20px;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
 }
