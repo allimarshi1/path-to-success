@@ -147,15 +147,15 @@ h4{
 }
 
 
-.services h2{
+#services h2{
     padding: 1rem;
     
 }
-.services h3{
+#services h3{
     padding: 1px;
     margin-left: 15px;
 }
-.services h4{
+#services h4{
     margin-left: -10px;
 }
 .personal_development{
@@ -237,7 +237,7 @@ h4{
     line-height: 1.4;
 }
 
-.why_choose_us{
+#why_choose_us{
     background-color: var(--pink);
     padding: 1rem;
 }
@@ -270,19 +270,19 @@ h4{
     background-color: var(--white);
 }  
 
-.pricing{
+#pricing{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
-.pricing h2{
+#pricing h2{
     
     margin-right: 300px;
     margin-top: 10px;
 }
 
-.pricing h3{
+#pricing h3{
     display: block;
     width: 100%;
     text-align: left;
@@ -314,7 +314,7 @@ td{
     border: 1px solid var(--yellow);
 }
 
-.first-step{
+#first-step{
     background-color: var(--pink);
     font-family: Inter;
     color: var(--white);
@@ -324,11 +324,11 @@ td{
     line-height: 1.4;
     
 }
-.first-step h2{
+#first-step h2{
 padding: 10px;
 }
 
-.first-step nav a{
+#first-step nav a{
     display: flex;
     justify-content: center;
     border-radius: 12%;
