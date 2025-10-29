@@ -245,10 +245,28 @@ h4{
     background-color: var(--white);
 }  
 
-.pricing {
+.service-contents {
    display: inline-block;
    text-align: center;
    border: 1px solid var(--yellow);
+   background-color: var(--white);
    
 }
+
+th{
+    font-weight: bold;
+    font-family: Inter;
+    color: var(--dk-gray);
+    background-color: var(--yellow);
+    padding: 10px;
+    margin:none;
+}
+
+td{
+    color: var(--dk-gray);
+    padding: 20px 10px;
+    font-family: Inter;
+    border: 1px solid var(--yellow);
+}
+
 
