@@ -63,7 +63,8 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 body{
     background-color:var(--lavender);
-    max-width: 450px;
+    width: 450px;
+    margin: 0 auto;
     font-family: "Kavoon", "Inter";
     display: flex;
     justify-content: center;
@@ -79,14 +80,16 @@ h1{
     justify-content: center;
     align-items: center;
     color:var(--white);
+    padding: 40px;
 }
 header p{
     font-family: Inter;
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-align: center;
+    
 }
 
 h2{
@@ -100,7 +103,6 @@ h3{
     font-family:Inter;
     color: var(--yellow);
     font-weight: bold;
-    
 
 }
 h4{
@@ -118,26 +120,43 @@ h4{
    align-items: center;
    font-family: Inter;
    font-weight: bold;
-   font-style: italic;
    padding: 1rem;
 }
 .menu h2{
     color:var(--dk-gray);
     font-family: Inter;
+    font-style: italic;
+}
+.menu nav{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 .menu nav a{
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
     background-color: var(--white);
     font-size: 1.5em;
     font-weight: bold;
     padding: 1rem;
-    margin:10px;
+    margin:5px;
     color: var(--purple);
+    width: 100%;
+    text-decoration: none;
 }
+
 
 .services h2{
     padding: 1rem;
+    
+}
+.services h3{
+    padding: 1px;
+    margin-left: 15px;
+}
+.services h4{
+    margin-left: -10px;
 }
 .personal_development{
     background-color: var(--white);
@@ -224,9 +243,9 @@ h4{
 }
 #choose_grid{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 1px 1px;
-   
+    
 }
 
 #choose_grid > div{
@@ -251,8 +270,28 @@ h4{
     background-color: var(--white);
 }  
 
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pricing h2{
+    
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+.pricing h3{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-left: 35px;
+    padding: .5rem;
+}
+
 .service-contents {
-   display: inline-block;
+   display: block;
    text-align: center;
    border: 1px solid var(--yellow);
    background-color: var(--white);
@@ -265,7 +304,7 @@ th{
     color: var(--dk-gray);
     background-color: var(--yellow);
     padding: 10px;
-    margin:none;
+    margin:0;
 }
 
 td{
@@ -310,5 +349,9 @@ footer{
     margin: 10px;
     font-family: Inter;
     color: var(--white);
-    
+    text-decoration: none;
+}
+
+footer a{
+    color: var(--white);
 }
